@@ -29,7 +29,7 @@
 
 <script>
   function skiftTema() {
-    document.body.style.backgroundColor = "#ffc0cb";
+    document.body.style.backgroundColor = "#28a745";
     document.body.style.color = "#000000";
   }
 </script>
