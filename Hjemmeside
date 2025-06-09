@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>M6 eksamen</h1>
+<p>GitHub er mega sejt</p>
+<style>
+  body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: #00ffcc;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+</style>
+<button onclick="skiftTema()">Skift farve</button>
+
+<script>
+  function skiftTema() {
+    document.body.style.backgroundColor = "#ffc0cb";
+    document.body.style.color = "#000000";
+  }
+</script>
+
+<style>
+  h1 {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+</style>
+
+
+
+</body>
+</html>
